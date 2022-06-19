@@ -1,0 +1,43 @@
+/*
+p{
+    font-size: 30px;
+}
+*/
+
+.text134{
+color: red;
+}
+
+a{
+    color: #000000;
+}
+a:hover{
+    color: red;
+}
+
+.mydiv{
+    background-color: black;
+    color: white;
+    border: 5px dotted red;
+    width: 400px;
+    box-shadow: -10px -10px 25px red;
+    animation: fontchange 5s infinite;
+    padding: 30px;
+    margin: 30px;
+}
+@keyframes bgchange{
+    from {background-color: black;}
+    to {background-color: red;}
+}
+@keyframes fontchange{
+    from{font-size: 30px;}
+    to{font-size: 40px;}
+}
+
+/* Horizontal menu using unordered list */
+.horizontalmenu li{
+    display: inline;
+    padding: 20px;
+}
+
+
